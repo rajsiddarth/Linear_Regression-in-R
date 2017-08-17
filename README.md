@@ -9,4 +9,11 @@ Implementation in R for
 
 -Split data into train and test and check for error metrics
 
+2. Multiple Linear Regression using CrudeOiloutput dataset  : 
+
+-Check for multicollinearity
+
+-Build stepAIC models
+
+
 
