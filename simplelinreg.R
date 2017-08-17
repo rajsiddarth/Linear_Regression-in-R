@@ -1,9 +1,11 @@
 rm(list=ls(all=TRUE))
 
-setwd("J:/Analytics/Batch 19/CSE_7202c/day02/")
+#install.packages("RCurl")
 
-# Read the data from the csv file
-data = read.csv(file = "Toyota_SimpleReg.csv",header=T)
+library(RCurl)
+
+# Reading the data 
+data = read.table(getURL("https://raw.githubusercontent.com/rajsiddarth/Regression_in_R/master/car_price_age.csv") ,header=T,sep=",")
 names(data)
 
 # Drop the Id, Model attributes
