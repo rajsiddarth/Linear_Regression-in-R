@@ -15,5 +15,10 @@ Implementation in R for
 
 -Build stepAIC models
 
+3. Logistic Regression using Flierresponse data set  : 
+
+-Build model for predicting response to a flier(0 or 1 ) based on age on the customer
+
+-Build ROCR for the model
 
 
