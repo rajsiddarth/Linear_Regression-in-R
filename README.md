@@ -1,24 +1,11 @@
-# Regression implementation in R
-Implementation in R for 
+# Regression
 
-1. Simple Linear Regression using car_price_age dataset  : 
+## Simple Linear Regression
+The data set car_price_age datasetis used to build a  Simple Linear Regression model with age of the car as independent variable and Price as a dependent variable.The confidence and prediction intervals are also built.The data is split into train and test to check for error metrics
 
--Building a linear model with age of the car as independent variable and Price as a dependent variable
+## Multiple Linear Regression
+The data set CrudeOilOutput.csv is used to build Multiple Linear Regression modeland predict WorldOil output.We use step AIC which tries to eliminate multicollinearity
 
--Build confidence and prediction intervals
-
--Split data into train and test and check for error metrics
-
-2. Multiple Linear Regression using CrudeOiloutput dataset  : 
-
--Check for multicollinearity
-
--Build stepAIC models
-
-3. Logistic Regression using Flierresponse data set  : 
-
--Build model for predicting response to a flier(0 or 1 ) based on age on the customer
-
--Build ROCR for the model
-
+## Logistic Regression
+Logistic Regression is used on Flierresponse data set to build a model for predicting response to a flier(0 or 1 ) based on age on the customer.
 
